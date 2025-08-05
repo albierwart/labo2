@@ -1,1 +1,14 @@
 <p>book-list works!</p>
+
+<ul>
+    @for(book of books(); track $index){
+
+        <li>{{book.id}}</li>
+        <li>{{book.title}}</li>
+        <li>{{book.author}}</li>
+        <li>{{book.description}}</li>
+        <li>{{book.releaseDate}}</li>
+    }
+</ul>
+
+    
