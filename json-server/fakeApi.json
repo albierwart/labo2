@@ -1,0 +1,69 @@
+{ "users": [
+    {
+      "email": "admin@admin",
+      "password": "$2b$10$tR8lbuMU/Hk6AjbCP37IFebs9Vja6Gn7B9OmYxEjlKMZkjzMXDjAC",
+      "id": 1,
+      "Role": "admin"
+    },
+      {
+      "email": "client@client",
+      "password": "$2b$10$tR8lbuMU/Hk6AjbCP37IFebs9Vja6Gn7B9OmYxEjlKMZkjzMXDjAC",
+      "id": 2,
+      "Role": "client"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "bleach",
+      "author": "tite kubo",
+      "description": "Bleach suit les aventures d'Ichigo Kurosaki, un lycéen qui obtient les pouvoirs d'un Shinigami (dieu de la mort) et doit protéger les vivants des esprits maléfiques tout en affrontant des ennemis redoutables. Entre combats épiques, intrigues surnaturelles et alliances inattendues, le manga mêle action, humour et drames dans un univers riche et mystérieux.",
+      "releaseDate": "2001-05-15"
+    },
+          {
+      "id": 2,
+      "title": "btooom",
+      "author": "junya inoue",
+      "description": "BTOOOM! suit Ryōta Sakamoto, un jeune homme expert en jeux vidéo, qui se retrouve piégé dans une version réelle et mortelle de son jeu favori, où les participants doivent s'entretuer avec des bombes. Entre survie, trahisons et alliances précaires, ce thriller psychologique explore la violence humaine et les limites de la moralité dans un jeu où la seule règle est de tuer ou être tué.",
+      "releaseDate": "2009-01-25"
+    },
+        {
+      "id": 3,
+      "title": "My hero academia",
+      "author": "momo yaoyorozu",
+      "description": "My Hero Academia suit Izuku Midoriya, un adolescent né sans super-pouvoir dans un monde où 80% de la population en possède, mais qui rêve de devenir un héros. Après avoir hérité du puissant One For All, il intègre la prestigieuse académie U.A. pour s'entraîner parmi les futurs plus grands héros, affrontant des vilains redoutables et surmontant ses limites.",
+      "releaseDate": "2014-07-10"
+    },
+        {
+      "id": 4,
+      "title": "tokyo ghoul",
+      "author": "sui ishida",
+      "description": "Tokyo Ghoul suit Ken Kaneki, un étudiant timide transformé en hybride humain-ghoul après une rencontre fatale, le forçant à naviguer entre deux mondes cruels. Déchiré entre sa nature humaine et ses instincts de prédateur, il lutte pour survivre dans une société où les ghouls sont traqués, tout en découvrant les sombres secrets de leur existence.",
+      "releaseDate": "2011-06-15"
+    },
+        {
+      "id": 5,
+      "title": "The breaker",
+      "author": "geuk-jin jeon",
+      "description": "The Breaker suit Shi-Woon Yi, un lycéen persécuté qui devient l'élève d'un mystérieux maître d'arts martiaux, Chun-Woo Han, et découvre le monde brutal des murim (société secrète de guerriers). Entre trahisons, combats épiques et quête de puissance, il doit s'adapter à cette nouvelle vie tout en protégeant ses proches.",
+      "releaseDate": "2007-08-15"
+    }
+  ],
+  "product": 
+  [
+    {
+    "id": 1,
+    "Name": "table",
+    "description": "une table en bois",
+    "prix": 100
+    },
+      {
+    "id": 2,
+    "Name": "chaise",
+    "description": "une chaise en bois",
+    "prix": 10
+    }
+
+  ]
+
+}
