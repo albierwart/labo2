@@ -1,1 +1,13 @@
 <p>user-list works!</p>
+
+<ul>
+@for (user of users(); track $index) {
+        <li>{{user.firstName}}</li>
+         <li>{{user.lastName}}</li>
+          <li>{{user.email}}</li>
+           <li>{{user.Role}}</li>
+
+           <br>
+}
+
+</ul>

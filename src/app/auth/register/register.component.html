@@ -1,0 +1,15 @@
+<h2>Formulaire d" enregistrement</h2>
+
+<form [formGroup]="registerForm" >
+    <label>email: </label>
+    <input id="email" type="text" placeholder="email" formControlName="email" /> <br> <br>
+    <label>password: </label>
+    <input id="password" type="text" placeholder="password" formControlName="password"/> <br> <br>
+    <label>firstName: </label>
+    <input id="firstName" type="text" placeholder="firstName" formControlName="firstName"/> <br> <br>
+    <label>lastName: </label>
+    <input id="lastName" type="text" placeholder="lastName" formControlName="lastName"/> <br> <br>
+
+    <button type="submit" (click)="onSubmit()">send</button>
+</form>
+

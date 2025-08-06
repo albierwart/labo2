@@ -7,7 +7,7 @@ import { ActivatedRoute } from "@angular/router";
 @Injectable({
     providedIn: "root"
 })
-export class booksServices{
+export class bookServices{
     private readonly _httpClient = inject(HttpClient);
 
     public books= signal<IBook[]>([]);

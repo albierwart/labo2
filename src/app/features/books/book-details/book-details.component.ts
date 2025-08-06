@@ -12,14 +12,10 @@ export class BookDetailsComponent {
 
     public idBook: string | null= null;
 
+    
     bgOnInit(){
-      this._activateRoute.queryParams.subscribe({
-        next: params => {
-          const str = JSON.stringify(params);
-          if(str.length > 2){
-            this.idBook = JSON.stringify(params);
-          }
-        }
+      this._activateRoute.paramMap.subscribe(params =>{
+        this.idBook = params.get('id');
       });
     }
 }

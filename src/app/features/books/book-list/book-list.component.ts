@@ -1,5 +1,5 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { booksServices } from '../../../core/services/booksServices';
+import { bookServices } from '../../../core/services/book-service.service';
 
 @Component({
   selector: 'app-book-list',
@@ -9,7 +9,7 @@ import { booksServices } from '../../../core/services/booksServices';
 })
 
 export class BookListComponent implements OnInit {
-   private booksService: booksServices = inject(booksServices);
+   private booksService: bookServices = inject(bookServices);
 
    books = this.booksService.books;
 

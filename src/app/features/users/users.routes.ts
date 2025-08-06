@@ -7,11 +7,7 @@ export const routes: Routes = [
         loadComponent: () =>
             import("./user-list/user-list.component").then(c => c.UserListComponent)
     },
-    {
-        path : "users/create",
-        loadComponent: () => 
-            import("./user-create/user-create.component").then(c => c.UserCreateComponent)
-    },
+   
     {
         path : "users/:id/view",
         loadComponent: () =>

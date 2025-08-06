@@ -3,13 +3,17 @@
       "email": "admin@admin",
       "password": "$2b$10$tR8lbuMU/Hk6AjbCP37IFebs9Vja6Gn7B9OmYxEjlKMZkjzMXDjAC",
       "id": 1,
-      "Role": "admin"
+      "Role": "admin",
+      "firstName": "alain",
+      "lastName": "bierwart"
     },
       {
       "email": "client@client",
       "password": "$2b$10$tR8lbuMU/Hk6AjbCP37IFebs9Vja6Gn7B9OmYxEjlKMZkjzMXDjAC",
       "id": 2,
-      "Role": "client"
+      "Role": "client",
+      "firstName": "tite",
+      "lastName": "kubo"
     }
   ],
   "books": [
